@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Major project</title>
+    <link rel="stylesheet" href="css/majorProject.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    
+    <div><button id="btnLogin">Login</button></div>
+    <div><button id="btnSignUp">Signup</button></div>
+    <div><button id="completeSurvey">Click to complete survey</button></div>
+    <div><button id="btnMatch">Find me a match</button></div>
+    <div><button id="btnSearch">Search</button></div>
+
+
+
+
+    <div class="sign-up hidden" id="sign-up-form" >
+      <h1>Sign Up</h1>
+      <h2>Add your personal details below</h2>
+
+      <label for="username"> Username: </label>
+      <input id="Username" name="username" type="text" />
+      <label for="firstName"> First Name: </label>
+      <input id="FirstName" name="firstname" type="text" />
+      <label for="lastName"> Last Name: </label>
+      <input id="LastName" name="lastname" type="text" />
+      <label for="gender"> Gender: </label>
+      <input id="Gender" name="gender" type="text" />
+      <label for="age"> Age: </label>
+      <input id="Age" name="age" type="text" />
+      <label for="dateOfBirth"> Date of Birth: </label>
+      <input id="DateOfBirth" name="dateOfBirth" type="text" />
+      <label for="password"> Password: </label>
+      <input id="Password" name="Password" type="text" />
+
+      <div><button id="btnSubmit">Submit</button></div>
+    </div>
+
+
+
+    <div class="Login hidden" id="login-form">
+      <h1>Login</h1>
+      <label for="username"> Username: </label>
+      <input id="Username" name="username" type="text" />
+      <label for="password"> Password: </label>
+      <input id="Password" name="Password" type="text" />
+
+      <div><button id="btnLoginForm">Login</button></div>
+    </div>
+
+
+
+
+    <div class="Survey hidden" id="survey-profile"></div>
+     
+
+        <div class="q1 hidden" id="question1">
+          <h1>Survey</h1>
+          <p>info about you!</p>
+          <h3>whats your favourite season?</h3>
+          <ul class="option1">
+            <li>Summer</li>
+            <li>Winter</li>
+            <li>Autumn</li>
+            <li>Spring</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="q2 hidden">
+        <h3>what kind of sports do you like?</h3>
+        <ul class="option2">
+          <li>field sports</li>
+          <li>Winter sports</li>
+          <li>fitness</li>
+          <li>no sport</li>
+        </ul>
+      </div>
+
+      <div class="q3 hidden">
+        <h3>How do you spend your free time??</h3>
+        <ul class="option3">
+          <li>reading</li>
+          <li>exercising</li>
+          <li>with family</li>
+          <li>doing work/studying</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="end hidden">
+      <h1>Survey completed</h1>
+      <p>ur reuslts will be stored</p>
+      <a href="/">Home</a>
+    </div>
+     <script type="text/javascript" src="js/majorProject.js"></script> 
+    <script src="js/login_signup.js"></script>
+  </body>
+</html>
